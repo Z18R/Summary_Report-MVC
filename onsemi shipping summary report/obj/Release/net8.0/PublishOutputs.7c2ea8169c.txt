@@ -1,0 +1,48 @@
+D:\Programs\onsemi_Summary_Report-MVC\old - Copy\onsemi shipping summary report\obj\Release\net8.0\PubTmp\Out\onsemi shipping summary report.exe
+D:\Programs\onsemi_Summary_Report-MVC\old - Copy\onsemi shipping summary report\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+D:\Programs\onsemi_Summary_Report-MVC\old - Copy\onsemi shipping summary report\obj\Release\net8.0\PubTmp\Out\appsettings.json
+D:\Programs\onsemi_Summary_Report-MVC\old - Copy\onsemi shipping summary report\obj\Release\net8.0\PubTmp\Out\onsemi shipping summary report.dll
+D:\Programs\onsemi_Summary_Report-MVC\old - Copy\onsemi shipping summary report\obj\Release\net8.0\PubTmp\Out\onsemi shipping summary report.runtimeconfig.json
+D:\Programs\onsemi_Summary_Report-MVC\old - Copy\onsemi shipping summary report\obj\Release\net8.0\PubTmp\Out\onsemi shipping summary report.pdb
+D:\Programs\onsemi_Summary_Report-MVC\old - Copy\onsemi shipping summary report\obj\Release\net8.0\PubTmp\Out\Azure.Core.dll
+D:\Programs\onsemi_Summary_Report-MVC\old - Copy\onsemi shipping summary report\obj\Release\net8.0\PubTmp\Out\Azure.Identity.dll
+D:\Programs\onsemi_Summary_Report-MVC\old - Copy\onsemi shipping summary report\obj\Release\net8.0\PubTmp\Out\EPPlus.dll
+D:\Programs\onsemi_Summary_Report-MVC\old - Copy\onsemi shipping summary report\obj\Release\net8.0\PubTmp\Out\EPPlus.Interfaces.dll
+D:\Programs\onsemi_Summary_Report-MVC\old - Copy\onsemi shipping summary report\obj\Release\net8.0\PubTmp\Out\EPPlus.System.Drawing.dll
+D:\Programs\onsemi_Summary_Report-MVC\old - Copy\onsemi shipping summary report\obj\Release\net8.0\PubTmp\Out\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Programs\onsemi_Summary_Report-MVC\old - Copy\onsemi shipping summary report\obj\Release\net8.0\PubTmp\Out\Microsoft.Data.SqlClient.dll
+D:\Programs\onsemi_Summary_Report-MVC\old - Copy\onsemi shipping summary report\obj\Release\net8.0\PubTmp\Out\Microsoft.EntityFrameworkCore.dll
+D:\Programs\onsemi_Summary_Report-MVC\old - Copy\onsemi shipping summary report\obj\Release\net8.0\PubTmp\Out\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Programs\onsemi_Summary_Report-MVC\old - Copy\onsemi shipping summary report\obj\Release\net8.0\PubTmp\Out\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Programs\onsemi_Summary_Report-MVC\old - Copy\onsemi shipping summary report\obj\Release\net8.0\PubTmp\Out\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Programs\onsemi_Summary_Report-MVC\old - Copy\onsemi shipping summary report\obj\Release\net8.0\PubTmp\Out\Microsoft.Identity.Client.dll
+D:\Programs\onsemi_Summary_Report-MVC\old - Copy\onsemi shipping summary report\obj\Release\net8.0\PubTmp\Out\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Programs\onsemi_Summary_Report-MVC\old - Copy\onsemi shipping summary report\obj\Release\net8.0\PubTmp\Out\Microsoft.IdentityModel.Abstractions.dll
+D:\Programs\onsemi_Summary_Report-MVC\old - Copy\onsemi shipping summary report\obj\Release\net8.0\PubTmp\Out\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Programs\onsemi_Summary_Report-MVC\old - Copy\onsemi shipping summary report\obj\Release\net8.0\PubTmp\Out\Microsoft.IdentityModel.Logging.dll
+D:\Programs\onsemi_Summary_Report-MVC\old - Copy\onsemi shipping summary report\obj\Release\net8.0\PubTmp\Out\Microsoft.IdentityModel.Protocols.dll
+D:\Programs\onsemi_Summary_Report-MVC\old - Copy\onsemi shipping summary report\obj\Release\net8.0\PubTmp\Out\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Programs\onsemi_Summary_Report-MVC\old - Copy\onsemi shipping summary report\obj\Release\net8.0\PubTmp\Out\Microsoft.IdentityModel.Tokens.dll
+D:\Programs\onsemi_Summary_Report-MVC\old - Copy\onsemi shipping summary report\obj\Release\net8.0\PubTmp\Out\Microsoft.IO.RecyclableMemoryStream.dll
+D:\Programs\onsemi_Summary_Report-MVC\old - Copy\onsemi shipping summary report\obj\Release\net8.0\PubTmp\Out\Microsoft.SqlServer.Server.dll
+D:\Programs\onsemi_Summary_Report-MVC\old - Copy\onsemi shipping summary report\obj\Release\net8.0\PubTmp\Out\Microsoft.Win32.SystemEvents.dll
+D:\Programs\onsemi_Summary_Report-MVC\old - Copy\onsemi shipping summary report\obj\Release\net8.0\PubTmp\Out\System.Configuration.ConfigurationManager.dll
+D:\Programs\onsemi_Summary_Report-MVC\old - Copy\onsemi shipping summary report\obj\Release\net8.0\PubTmp\Out\System.Drawing.Common.dll
+D:\Programs\onsemi_Summary_Report-MVC\old - Copy\onsemi shipping summary report\obj\Release\net8.0\PubTmp\Out\System.IdentityModel.Tokens.Jwt.dll
+D:\Programs\onsemi_Summary_Report-MVC\old - Copy\onsemi shipping summary report\obj\Release\net8.0\PubTmp\Out\System.Memory.Data.dll
+D:\Programs\onsemi_Summary_Report-MVC\old - Copy\onsemi shipping summary report\obj\Release\net8.0\PubTmp\Out\System.Runtime.Caching.dll
+D:\Programs\onsemi_Summary_Report-MVC\old - Copy\onsemi shipping summary report\obj\Release\net8.0\PubTmp\Out\System.Security.Cryptography.ProtectedData.dll
+D:\Programs\onsemi_Summary_Report-MVC\old - Copy\onsemi shipping summary report\obj\Release\net8.0\PubTmp\Out\System.Security.Permissions.dll
+D:\Programs\onsemi_Summary_Report-MVC\old - Copy\onsemi shipping summary report\obj\Release\net8.0\PubTmp\Out\System.Windows.Extensions.dll
+D:\Programs\onsemi_Summary_Report-MVC\old - Copy\onsemi shipping summary report\obj\Release\net8.0\PubTmp\Out\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Programs\onsemi_Summary_Report-MVC\old - Copy\onsemi shipping summary report\obj\Release\net8.0\PubTmp\Out\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Programs\onsemi_Summary_Report-MVC\old - Copy\onsemi shipping summary report\obj\Release\net8.0\PubTmp\Out\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Programs\onsemi_Summary_Report-MVC\old - Copy\onsemi shipping summary report\obj\Release\net8.0\PubTmp\Out\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Programs\onsemi_Summary_Report-MVC\old - Copy\onsemi shipping summary report\obj\Release\net8.0\PubTmp\Out\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Programs\onsemi_Summary_Report-MVC\old - Copy\onsemi shipping summary report\obj\Release\net8.0\PubTmp\Out\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Programs\onsemi_Summary_Report-MVC\old - Copy\onsemi shipping summary report\obj\Release\net8.0\PubTmp\Out\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\Programs\onsemi_Summary_Report-MVC\old - Copy\onsemi shipping summary report\obj\Release\net8.0\PubTmp\Out\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+D:\Programs\onsemi_Summary_Report-MVC\old - Copy\onsemi shipping summary report\obj\Release\net8.0\PubTmp\Out\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Programs\onsemi_Summary_Report-MVC\old - Copy\onsemi shipping summary report\obj\Release\net8.0\PubTmp\Out\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Programs\onsemi_Summary_Report-MVC\old - Copy\onsemi shipping summary report\obj\Release\net8.0\PubTmp\Out\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Programs\onsemi_Summary_Report-MVC\old - Copy\onsemi shipping summary report\obj\Release\net8.0\PubTmp\Out\onsemi shipping summary report.deps.json

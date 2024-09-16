@@ -1,0 +1,108 @@
+﻿@model DateFilterViewModel
+
+<div class="container">
+    <strong>onsemi Summary shipping Report</strong>
+    <form asp-controller="Home" asp-action="ExportToExcel" method="post" class="mt-4">
+        <div class="row">
+            <div class="col-md-4">
+                <label for="FromDate" class="form-label">From Date:</label>
+                <input type="date" id="FromDate" name="FromDate" asp-for="FromDate" class="form-control" />
+            </div>
+            <div class="col-md-4">
+                <label for="ToDate" class="form-label">To Date:</label>
+                <input type="date" id="ToDate" name="ToDate" asp-for="ToDate" class="form-control" />
+            </div>
+            <div class="col-md-2 align-self-end">
+                <button type="submit" class="btn btn-primary">Export Shipping Report CycleTime</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+<div class="container mt-5">
+    <strong>onsemi shipping report</strong>
+    <form asp-controller="Home" asp-action="ExportToExcelSummary" method="post" class="mt-4">
+        <div class="row">
+            <div class="col-md-4">
+                <label for="FromDate" class="form-label">From Date:</label>
+                <input type="date" id="FromDate" name="FromDate" asp-for="FromDate" class="form-control" />
+            </div>
+            <div class="col-md-4">
+                <label for="ToDate" class="form-label">To Date:</label>
+                <input type="date" id="ToDate" name="ToDate" asp-for="ToDate" class="form-control" />
+            </div>
+            <div class="col-md-2 align-self-end">
+                <button type="submit" class="btn btn-primary">Export Summary Report</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+@* onsemi Device Skip Summary *@
+
+<div class="container mt-5">
+    <strong>onsemi Skip Device</strong>
+    <form asp-controller="Home" asp-action="ExportToExcelDeviceSkip" method="post" class="mt-4">
+        <div class="row">
+            <div class="col-md-4">
+                <label for="FromDate" class="form-label">From Date:</label>
+                <input type="date" id="FromDate" name="FromDate" asp-for="FromDate" class="form-control" />
+            </div>
+            <div class="col-md-4">
+                <label for="ToDate" class="form-label">To Date:</label>
+                <input type="date" id="ToDate" name="ToDate" asp-for="ToDate" class="form-control" />
+            </div>
+            <div class="col-md-2 align-self-end">
+                <button type="submit" class="btn btn-primary">Export Summary Report</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+
+@* Device For Insertion Skip *@
+<div class="container mt-5">
+    <strong>Insert Device for Skip</strong>  
+    <form asp-controller="Home" asp-action="InsertDevice" method="post" class="mt-4">
+        <div class="row">
+            <div class="col-md-4">
+                <input id="InsertDevice" name="Device" class="form-control" placeholder="Enter Device Name" />
+            </div>
+            <div class="col-md-2 align-self-end">
+                <button type="submit" class="btn btn-primary">Insert Device</button>
+            </div>
+        </div>
+    </form>
+    <div class="mt-3">
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <div class="alert alert-success">
+                @TempData["SuccessMessage"]
+            </div>
+        }
+        @if (TempData["ErrorMessage"] != null)
+        {
+            <div class="alert alert-danger">
+                @TempData["ErrorMessage"]
+            </div>
+        }
+    </div>
+
+</div>
+
+
+
+@* <div class="container mt-5">
+    <strong>Insert Device for Skip</strong>
+    <form asp-controller="Home" asp-action="InsertDevice" method="post" class="mt-4">
+        <div class="row">
+            <div class="col-md-4">
+                <input id="InsertDevice" name="Device" class="form-control" placeholder="Enter Device Name" />
+            </div>
+            <div class="col-md-2 align-self-end">
+                <button type="submit" class="btn btn-primary">Insert Device</button>
+            </div>
+        </div>
+    </form>
+</div>
+ *@
