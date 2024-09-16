@@ -33,7 +33,37 @@ namespace onsemi_shipping_summary_report.Controllers
 
         public IActionResult Privacy()
         {
-            return View();
+            //return View();
+            var productionOrders = GetProductionOrders();
+            return View(productionOrders);
+        }
+
+        private List<ProductionOrder> GetProductionOrders()
+        {
+            List<ProductionOrder> orders = new List<ProductionOrder>();
+            string connectionString = _configuration.GetConnectionString("MES_ATEC_Connection");
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                using (SqlCommand command = new SqlCommand("SELECT TOP 200 * FROM  CST_Gem_Lot_Dieprep order by id desc", connection))
+                {
+                    SqlDataReader reader = command.ExecuteReader();
+                    while (reader.Read())
+                    {
+                        orders.Add(new ProductionOrder
+                        {
+                            ID = !reader.IsDBNull(0) ? reader.GetInt64(0) : 0, 
+                            Lotnumber = !reader.IsDBNull(1) ? reader.GetString(1) : string.Empty, 
+                            OrderDate = !reader.IsDBNull(2) ? reader.GetDateTime(2) : DateTime.MinValue, 
+                            workorder = !reader.IsDBNull(3) ? reader.GetString(3) : string.Empty, 
+                            ATEC_WO = !reader.IsDBNull(4) ? reader.GetString(4) : string.Empty, 
+                            SO = !reader.IsDBNull(5) ? reader.GetString(5) : string.Empty 
+                        });
+                    }
+                }
+            }
+            return orders;
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
@@ -41,6 +71,7 @@ namespace onsemi_shipping_summary_report.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
 
         [HttpPost]
         public IActionResult ExportToExcel(DateFilterViewModel model)

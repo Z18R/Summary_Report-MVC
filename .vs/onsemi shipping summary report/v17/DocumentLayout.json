@@ -1,21 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jc_it\\Desktop\\onsemi shipment\\New folder\\onsemi_Summary_Report-MVC\\",
+  "WorkspaceRootPath": "D:\\Programs\\onsemi_Summary_Report-MVC\\onsemi Summary report with gem\\Summary_Report-MVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E040C0E4-C2CD-4B79-A306-B45D8E186E18}|onsemi shipping summary report\\onsemi shipping summary report.csproj|c:\\users\\jc_it\\desktop\\onsemi shipment\\new folder\\onsemi_summary_report-mvc\\onsemi shipping summary report\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E040C0E4-C2CD-4B79-A306-B45D8E186E18}|onsemi shipping summary report\\onsemi shipping summary report.csproj|solutionrelative:onsemi shipping summary report\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E040C0E4-C2CD-4B79-A306-B45D8E186E18}|onsemi shipping summary report\\onsemi shipping summary report.csproj|d:\\programs\\onsemi_summary_report-mvc\\onsemi summary report with gem\\summary_report-mvc\\onsemi shipping summary report\\models\\productionorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E040C0E4-C2CD-4B79-A306-B45D8E186E18}|onsemi shipping summary report\\onsemi shipping summary report.csproj|solutionrelative:onsemi shipping summary report\\models\\productionorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E040C0E4-C2CD-4B79-A306-B45D8E186E18}|onsemi shipping summary report\\onsemi shipping summary report.csproj|c:\\users\\jc_it\\desktop\\onsemi shipment\\new folder\\onsemi_summary_report-mvc\\onsemi shipping summary report\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E040C0E4-C2CD-4B79-A306-B45D8E186E18}|onsemi shipping summary report\\onsemi shipping summary report.csproj|d:\\programs\\onsemi_summary_report-mvc\\onsemi summary report with gem\\summary_report-mvc\\onsemi shipping summary report\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E040C0E4-C2CD-4B79-A306-B45D8E186E18}|onsemi shipping summary report\\onsemi shipping summary report.csproj|solutionrelative:onsemi shipping summary report\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E040C0E4-C2CD-4B79-A306-B45D8E186E18}|onsemi shipping summary report\\onsemi shipping summary report.csproj|d:\\programs\\onsemi_summary_report-mvc\\onsemi summary report with gem\\summary_report-mvc\\onsemi shipping summary report\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E040C0E4-C2CD-4B79-A306-B45D8E186E18}|onsemi shipping summary report\\onsemi shipping summary report.csproj|solutionrelative:onsemi shipping summary report\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E040C0E4-C2CD-4B79-A306-B45D8E186E18}|onsemi shipping summary report\\onsemi shipping summary report.csproj|c:\\users\\jc_it\\desktop\\onsemi shipment\\new folder\\onsemi_summary_report-mvc\\onsemi shipping summary report\\models\\datefilterviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E040C0E4-C2CD-4B79-A306-B45D8E186E18}|onsemi shipping summary report\\onsemi shipping summary report.csproj|solutionrelative:onsemi shipping summary report\\models\\datefilterviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E040C0E4-C2CD-4B79-A306-B45D8E186E18}|onsemi shipping summary report\\onsemi shipping summary report.csproj|d:\\programs\\onsemi_summary_report-mvc\\onsemi summary report with gem\\summary_report-mvc\\onsemi shipping summary report\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E040C0E4-C2CD-4B79-A306-B45D8E186E18}|onsemi shipping summary report\\onsemi shipping summary report.csproj|solutionrelative:onsemi shipping summary report\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E040C0E4-C2CD-4B79-A306-B45D8E186E18}|onsemi shipping summary report\\onsemi shipping summary report.csproj|c:\\users\\jc_it\\desktop\\onsemi shipment\\new folder\\onsemi_summary_report-mvc\\onsemi shipping summary report\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E040C0E4-C2CD-4B79-A306-B45D8E186E18}|onsemi shipping summary report\\onsemi shipping summary report.csproj|d:\\programs\\onsemi_summary_report-mvc\\onsemi summary report with gem\\summary_report-mvc\\onsemi shipping summary report\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E040C0E4-C2CD-4B79-A306-B45D8E186E18}|onsemi shipping summary report\\onsemi shipping summary report.csproj|solutionrelative:onsemi shipping summary report\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,50 +42,63 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Programs\\onsemi_Summary_Report-MVC\\onsemi Summary report with gem\\Summary_Report-MVC\\onsemi shipping summary report\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "onsemi shipping summary report\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Programs\\onsemi_Summary_Report-MVC\\onsemi Summary report with gem\\Summary_Report-MVC\\onsemi shipping summary report\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "onsemi shipping summary report\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-16T01:47:10.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductionOrder.cs",
+              "DocumentMoniker": "D:\\Programs\\onsemi_Summary_Report-MVC\\onsemi Summary report with gem\\Summary_Report-MVC\\onsemi shipping summary report\\Models\\ProductionOrder.cs",
+              "RelativeDocumentMoniker": "onsemi shipping summary report\\Models\\ProductionOrder.cs",
+              "ToolTip": "D:\\Programs\\onsemi_Summary_Report-MVC\\onsemi Summary report with gem\\Summary_Report-MVC\\onsemi shipping summary report\\Models\\ProductionOrder.cs",
+              "RelativeToolTip": "onsemi shipping summary report\\Models\\ProductionOrder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T01:07:30.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\jc_it\\Desktop\\onsemi shipment\\New folder\\onsemi_Summary_Report-MVC\\onsemi shipping summary report\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "D:\\Programs\\onsemi_Summary_Report-MVC\\onsemi Summary report with gem\\Summary_Report-MVC\\onsemi shipping summary report\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "onsemi shipping summary report\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\jc_it\\Desktop\\onsemi shipment\\New folder\\onsemi_Summary_Report-MVC\\onsemi shipping summary report\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Programs\\onsemi_Summary_Report-MVC\\onsemi Summary report with gem\\Summary_Report-MVC\\onsemi shipping summary report\\Controllers\\HomeController.cs",
               "RelativeToolTip": "onsemi shipping summary report\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAEwAAAAAAAAAAAAtwFgAAAAIAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAA3wDwAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-01T08:24:10.393Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DateFilterViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\jc_it\\Desktop\\onsemi shipment\\New folder\\onsemi_Summary_Report-MVC\\onsemi shipping summary report\\Models\\DateFilterViewModel.cs",
-              "RelativeDocumentMoniker": "onsemi shipping summary report\\Models\\DateFilterViewModel.cs",
-              "ToolTip": "C:\\Users\\jc_it\\Desktop\\onsemi shipment\\New folder\\onsemi_Summary_Report-MVC\\onsemi shipping summary report\\Models\\DateFilterViewModel.cs",
-              "RelativeToolTip": "onsemi shipping summary report\\Models\\DateFilterViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T03:04:38.801Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\jc_it\\Desktop\\onsemi shipment\\New folder\\onsemi_Summary_Report-MVC\\onsemi shipping summary report\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "onsemi shipping summary report\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\jc_it\\Desktop\\onsemi shipment\\New folder\\onsemi_Summary_Report-MVC\\onsemi shipping summary report\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "onsemi shipping summary report\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAGAAAA",
+              "DocumentIndex": 1,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\Programs\\onsemi_Summary_Report-MVC\\onsemi Summary report with gem\\Summary_Report-MVC\\onsemi shipping summary report\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "onsemi shipping summary report\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\Programs\\onsemi_Summary_Report-MVC\\onsemi Summary report with gem\\Summary_Report-MVC\\onsemi shipping summary report\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "onsemi shipping summary report\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-01T09:12:47.779Z",
+              "WhenOpened": "2024-09-16T01:01:14.234Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\jc_it\\Desktop\\onsemi shipment\\New folder\\onsemi_Summary_Report-MVC\\onsemi shipping summary report\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "D:\\Programs\\onsemi_Summary_Report-MVC\\onsemi Summary report with gem\\Summary_Report-MVC\\onsemi shipping summary report\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "onsemi shipping summary report\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\jc_it\\Desktop\\onsemi shipment\\New folder\\onsemi_Summary_Report-MVC\\onsemi shipping summary report\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Programs\\onsemi_Summary_Report-MVC\\onsemi Summary report with gem\\Summary_Report-MVC\\onsemi shipping summary report\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "onsemi shipping summary report\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAuwBgAAAAtAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-01T08:36:35.677Z"
             }

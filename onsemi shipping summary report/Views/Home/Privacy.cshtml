@@ -1,6 +1,33 @@
-﻿@{
+﻿@model List<onsemi_shipping_summary_report.Models.ProductionOrder>
+
+@{
     ViewData["Title"] = "Privacy Policy";
 }
-<h1>@ViewData["Title"]</h1>
 
-<p>Use this page to detail your site's privacy policy.</p>
+@* <h1>@ViewData["Title"]</h1> *@
+
+<p>GEM DIEPREP DUMP</p>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Lot Number</th>
+            <th>Order Date</th>
+            <th>Work Order</th>
+            <th>ATEC WO</th>
+            <th>SO</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var order in Model)
+        {
+            <tr>
+                <td>@order.Lotnumber</td>
+                <td>@order.OrderDate.ToString("yyyy-MM-dd")</td>
+                <td>@order.workorder</td>
+                <td>@order.ATEC_WO</td>
+                <td>@order.SO</td>
+            </tr>
+        }
+    </tbody>
+</table>
