@@ -1,0 +1,37 @@
+﻿@model IEnumerable<onsemi_shipping_summary_report.Models.datalogs>
+
+<div class="card mt-4">
+    <div class="card-header">
+        <strong>Search Results</strong>
+    </div>
+    <div class="card-body">
+        @if (!Model.Any())
+        {
+            <div>No results </div>
+        }
+        else
+        {
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>File Name</th>
+                        <th>File1</th>
+                        <th>File2</th>
+                        <th>hasTransferred</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.FileName</td>
+                            <td>@item.File1</td>
+                            <td>@item.File2</td>
+                            <td>@item.hasTransferred</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+    </div>
+</div>

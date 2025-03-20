@@ -5,7 +5,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project>
   <PropertyGroup>
     <_PublishTargetUrl>C:\Users\jc_it\Desktop\onsemi shipment\New folder\onsemi_Summary_Report-MVC\onsemi shipping summary report\bin\Release\net8.0\publish\</_PublishTargetUrl>
-    <History>True|2024-09-16T02:08:40.7192733Z;</History>
+    <History>True|2024-09-16T05:55:35.4419289Z;True|2024-09-16T10:08:40.7192733+08:00;</History>
     <LastFailureDetails />
   </PropertyGroup>
 </Project>

@@ -1,0 +1,89 @@
+﻿@model onsemi_shipping_summary_report.Models.LotTracking
+
+@{
+    ViewData["Title"] = "Lot Details";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="form-group row">
+
+    <label for="lotAlias" class="col-form-label col-md-2">Enter Lot Alias:</label>
+    <div class="col-md-3">
+        <input type="text" id="lotAlias" class="form-control" />
+    </div>
+    <div class="col-md-2">
+        <button id="getDetailsButton" class="btn btn-primary w-100">
+            Get Details
+        </button>
+    </div>
+
+</div>
+
+<div class="form-group row mt-2">
+    <div class="col-md-1">
+        @* //function to clear Details *@
+        <button id="clearButton" class="btn btn-secondary w-100">
+            Clear
+        </button>
+    </div>
+    <div class="col-md-2">
+        <button id="ViewDetails" class="btn btn-primary w-100">
+            View Details
+        </button>
+    </div>
+    <div class="col-md-2">
+        <button id="TrackINButton" class="btn btn-primary w-100">
+            Track IN
+        </button>
+    </div>
+</div>
+
+<div id="lotDetails" class="mt-4"></div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#lotAlias').on('keypress', function (e) {
+            if (e.which === 13) {
+                e.preventDefault();
+                GetLotDetails();
+            }
+        });
+
+        $('#getDetailsButton').on('click', function () {
+            GetLotDetails();
+        });
+
+        $('#clearButton').on('click', function () {
+            ClearLotDetails();
+        });
+
+        // get lot details
+        function GetLotDetails() {
+            const lotAlias = $('#lotAlias').val().trim();
+            //console.log("Lot Alias:", lotAlias);
+
+            if (!lotAlias) {
+                $('#lotDetails').html('<p class="text-danger">Please enter a lot alias.</p>');
+                return;
+            }
+
+            $.ajax({
+                url: '@Url.Action("GetLotDetails", "Home")',
+                type: 'GET',
+                data: { lotAlias: lotAlias },
+                success: function (data) {
+                    $('#lotDetails').html(data);
+                },
+                error: function (xhr, status, error) {
+                    $('#lotDetails').html('<p class="text-danger">Error retrieving lot details: ' + error + '</p>');
+                }
+            });
+        }
+        //clear Details
+        function ClearLotDetails() {
+            $('#lotAlias').val('');
+        }
+    });
+</script>

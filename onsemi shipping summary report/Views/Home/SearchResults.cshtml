@@ -1,0 +1,35 @@
+﻿@model IEnumerable<onsemi_shipping_summary_report.Models.onsemi_wafermap>
+
+<div class="card mt-4">
+    <div class="card-header">
+        <strong>Search Results</strong>
+    </div>
+    <div class="card-body">
+        @if (!Model.Any())
+        {
+                <div>No results found for the given wafer scribe.</div>
+        }
+        else
+        {
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>File Name</th>
+                            <th>Folder Name</th>
+                            <th>Wafermap</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    @foreach (var item in Model)
+                    {
+                                <tr>
+                                    <td>@item.FileName</td>
+                                    <td>@item.FolderName</td>
+                                    <td>@item.Wafermap</td>
+                                </tr>
+                    }
+                    </tbody>
+                </table>
+        }
+    </div>
+</div>

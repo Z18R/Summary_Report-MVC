@@ -1,108 +1,213 @@
 ﻿@model DateFilterViewModel
 
 <div class="container">
-    <strong>onsemi Summary shipping Report</strong>
-    <form asp-controller="Home" asp-action="ExportToExcel" method="post" class="mt-4">
-        <div class="row">
-            <div class="col-md-4">
-                <label for="FromDate" class="form-label">From Date:</label>
-                <input type="date" id="FromDate" name="FromDate" asp-for="FromDate" class="form-control" />
-            </div>
-            <div class="col-md-4">
-                <label for="ToDate" class="form-label">To Date:</label>
-                <input type="date" id="ToDate" name="ToDate" asp-for="ToDate" class="form-control" />
-            </div>
-            <div class="col-md-2 align-self-end">
-                <button type="submit" class="btn btn-primary">Export Shipping Report CycleTime</button>
+    <!-- Pagination Links -->
+    <ul class="nav nav-pills mb-4">
+        <li class="nav-item">
+            <a class="nav-link active" id="report1-tab" data-bs-toggle="pill" href="#report1">Summary Shipping Report</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="report2-tab" data-bs-toggle="pill" href="#report2">Shipping Report</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="report3-tab" data-bs-toggle="pill" href="#report3">Skip Device</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="report4-tab" data-bs-toggle="pill" href="#report4">Insert Device for Skip</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="report5-tab" data-bs-toggle="pill" href="#report5">Wafermap Checker</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="report6-tab" data-bs-toggle="pill" href="#report6">Datalogs Checker</a>
+        </li>
+
+    </ul>
+
+    <div class="tab-content">
+        <!-- Report 1 -->
+        <div class="tab-pane fade show active" id="report1">
+            <div class="card mb-5">
+                <div class="card-header">
+                    <strong>onsemi Summary Shipping Report</strong>
+                </div>
+                <div class="card-body">
+                    <form asp-controller="Home" asp-action="ExportToExcel" method="post" class="mt-4">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <label for="FromDate1" class="form-label">From Date:</label>
+                                <input type="date" id="FromDate1" name="FromDate" asp-for="FromDate" class="form-control" />
+                            </div>
+                            <div class="col-md-4">
+                                <label for="ToDate1" class="form-label">To Date:</label>
+                                <input type="date" id="ToDate1" name="ToDate" asp-for="ToDate" class="form-control" />
+                            </div>
+                            <div class="col-md-2 align-self-end">
+                                <button type="submit" class="btn btn-primary">Export</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
-    </form>
-</div>
 
-<div class="container mt-5">
-    <strong>onsemi shipping report</strong>
-    <form asp-controller="Home" asp-action="ExportToExcelSummary" method="post" class="mt-4">
-        <div class="row">
-            <div class="col-md-4">
-                <label for="FromDate" class="form-label">From Date:</label>
-                <input type="date" id="FromDate" name="FromDate" asp-for="FromDate" class="form-control" />
-            </div>
-            <div class="col-md-4">
-                <label for="ToDate" class="form-label">To Date:</label>
-                <input type="date" id="ToDate" name="ToDate" asp-for="ToDate" class="form-control" />
-            </div>
-            <div class="col-md-2 align-self-end">
-                <button type="submit" class="btn btn-primary">Export Summary Report</button>
+        <!-- Report 2 -->
+        <div class="tab-pane fade" id="report2">
+            <div class="card mb-5">
+                <div class="card-header">
+                    <strong>onsemi Shipping Report</strong>
+                </div>
+                <div class="card-body">
+                    <form asp-controller="Home" asp-action="ExportToExcelSummary" method="post" class="mt-4">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <label for="FromDate2" class="form-label">From Date:</label>
+                                <input type="date" id="FromDate2" name="FromDate" asp-for="FromDate" class="form-control" />
+                            </div>
+                            <div class="col-md-4">
+                                <label for="ToDate2" class="form-label">To Date:</label>
+                                <input type="date" id="ToDate2" name="ToDate" asp-for="ToDate" class="form-control" />
+                            </div>
+                            <div class="col-md-2 align-self-end">
+                                <button type="submit" class="btn btn-primary">Export</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
-    </form>
-</div>
 
-@* onsemi Device Skip Summary *@
-
-<div class="container mt-5">
-    <strong>onsemi Skip Device</strong>
-    <form asp-controller="Home" asp-action="ExportToExcelDeviceSkip" method="post" class="mt-4">
-        <div class="row">
-            <div class="col-md-4">
-                <label for="FromDate" class="form-label">From Date:</label>
-                <input type="date" id="FromDate" name="FromDate" asp-for="FromDate" class="form-control" />
-            </div>
-            <div class="col-md-4">
-                <label for="ToDate" class="form-label">To Date:</label>
-                <input type="date" id="ToDate" name="ToDate" asp-for="ToDate" class="form-control" />
-            </div>
-            <div class="col-md-2 align-self-end">
-                <button type="submit" class="btn btn-primary">Export Summary Report</button>
+        <!-- Report 3 -->
+        <div class="tab-pane fade" id="report3">
+            <div class="card mb-5">
+                <div class="card-header">
+                    <strong>onsemi Skip Device</strong>
+                </div>
+                <div class="card-body">
+                    <form asp-controller="Home" asp-action="ExportToExcelDeviceSkip" method="post" class="mt-4">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <label for="FromDate3" class="form-label">From Date:</label>
+                                <input type="date" id="FromDate3" name="FromDate" asp-for="FromDate" class="form-control" />
+                            </div>
+                            <div class="col-md-4">
+                                <label for="ToDate3" class="form-label">To Date:</label>
+                                <input type="date" id="ToDate3" name="ToDate" asp-for="ToDate" class="form-control" />
+                            </div>
+                            <div class="col-md-2 align-self-end">
+                                <button type="submit" class="btn btn-primary">Export</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
-    </form>
-</div>
 
-
-@* Device For Insertion Skip *@
-<div class="container mt-5">
-    <strong>Insert Device for Skip</strong>  
-    <form asp-controller="Home" asp-action="InsertDevice" method="post" class="mt-4">
-        <div class="row">
-            <div class="col-md-4">
-                <input id="InsertDevice" name="Device" class="form-control" placeholder="Enter Device Name" />
-            </div>
-            <div class="col-md-2 align-self-end">
-                <button type="submit" class="btn btn-primary">Insert Device</button>
+        <!-- Report 4 -->
+        <div class="tab-pane fade" id="report4">
+            <div class="card mb-5">
+                <div class="card-header">
+                    <strong>Insert Device for Skip</strong>
+                </div>
+                <div class="card-body">
+                    <form asp-controller="Home" asp-action="InsertDevice" method="post" class="mt-4">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <input id="InsertDevice" name="Device" class="form-control" placeholder="Enter Device Name" />
+                            </div>
+                            <div class="col-md-2 align-self-end">
+                                <button type="submit" class="btn btn-primary">Insert</button>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="mt-3">
+                        @if (TempData["SuccessMessage"] != null)
+                        {
+                            <div class="alert alert-success">
+                                @TempData["SuccessMessage"]
+                            </div>
+                        }
+                        @if (TempData["ErrorMessage"] != null)
+                        {
+                            <div class="alert alert-danger">
+                                @TempData["ErrorMessage"]
+                            </div>
+                        }
+                    </div>
+                </div>
             </div>
         </div>
-    </form>
-    <div class="mt-3">
-        @if (TempData["SuccessMessage"] != null)
-        {
-            <div class="alert alert-success">
-                @TempData["SuccessMessage"]
+
+        <!-- Report 5 -->
+        <div class="tab-pane fade" id="report5">
+            <div class="card mb-5">
+                <div class="card-header">
+                    <strong>Wafer Map Checker</strong>
+                </div>
+                <div class="card-body">
+                    <form asp-controller="Home" asp-action="SearchWafermap" method="get" class="mt-4">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <input id="SearchDevice" name="Device" class="form-control" placeholder="Enter Wafer Scribe" />
+                            </div>
+                            <div class="col-md-2 align-self-end">
+                                <button type="submit" class="btn btn-primary">Search</button>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="mt-3">
+                        @if (TempData["SuccessMessage"] != null)
+                        {
+                            <div class="alert alert-success">
+                                @TempData["SuccessMessage"]
+                            </div>
+                        }
+                        @if (TempData["ErrorMessage"] != null)
+                        {
+                            <div class="alert alert-danger">
+                                @TempData["ErrorMessage"]
+                            </div>
+                        }
+                    </div>
+                </div>
             </div>
-        }
-        @if (TempData["ErrorMessage"] != null)
-        {
-            <div class="alert alert-danger">
-                @TempData["ErrorMessage"]
+        </div>
+
+        <!-- Report 6 -->
+        <div class="tab-pane fade" id="report6">
+            <div class="card mb-5">
+                <div class="card-header">
+                    <strong>Datalogs Checker</strong>
+                </div>
+                <div class="card-body">
+                    <form asp-controller="Home" asp-action="SearchDatalogs" method="get" class="mt-4">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <input id="SearchDevice" name="Device" class="form-control" placeholder="Enter Datalogs" />
+                            </div>
+                            <div class="col-md-2 align-self-end">
+                                <button type="submit" class="btn btn-primary">Search</button>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="mt-3">
+                        @if (TempData["SuccessMessage"] != null)
+                        {
+                            <div class="alert alert-success">
+                                @TempData["SuccessMessage"]
+                            </div>
+                        }
+                        @if (TempData["ErrorMessage"] != null)
+                        {
+                            <div class="alert alert-danger">
+                                @TempData["ErrorMessage"]
+                            </div>
+                        }
+                    </div>
+                </div>
             </div>
-        }
+        </div>
     </div>
-
 </div>
 
 
-
-@* <div class="container mt-5">
-    <strong>Insert Device for Skip</strong>
-    <form asp-controller="Home" asp-action="InsertDevice" method="post" class="mt-4">
-        <div class="row">
-            <div class="col-md-4">
-                <input id="InsertDevice" name="Device" class="form-control" placeholder="Enter Device Name" />
-            </div>
-            <div class="col-md-2 align-self-end">
-                <button type="submit" class="btn btn-primary">Insert Device</button>
-            </div>
-        </div>
-    </form>
-</div>
- *@

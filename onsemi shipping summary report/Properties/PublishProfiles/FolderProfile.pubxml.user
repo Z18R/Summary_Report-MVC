@@ -4,8 +4,8 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 -->
 <Project>
   <PropertyGroup>
-    <_PublishTargetUrl>D:\Programs\onsemi_Summary_Report-MVC\old - Copy\onsemi shipping summary report\bin\Release\net8.0\publish\</_PublishTargetUrl>
-    <History>True|2024-08-08T06:31:40.5594954Z;True|2024-08-08T14:28:30.2782593+08:00;True|2024-08-08T11:15:29.6646204+08:00;</History>
+    <_PublishTargetUrl>D:\Programs\2024\onsemi_Summary_Report-MVC\onsemi Summary report with gem\Summary_Report-MVC\onsemi shipping summary report\bin\Release\net8.0\publish\</_PublishTargetUrl>
+    <History>True|2025-03-20T00:45:05.4947269Z;True|2024-09-16T14:18:02.6018860+08:00;True|2024-08-08T14:31:40.5594954+08:00;True|2024-08-08T14:28:30.2782593+08:00;True|2024-08-08T11:15:29.6646204+08:00;</History>
     <LastFailureDetails />
   </PropertyGroup>
 </Project>

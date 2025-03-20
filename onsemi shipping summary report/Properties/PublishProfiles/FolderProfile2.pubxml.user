@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\Programs\onsemi_Summary_Report-MVC\onsemi Summary report with gem\Summary_Report-MVC\onsemi shipping summary report\bin\Release\net8.0\publish\</_PublishTargetUrl>
+    <History>True|2024-10-26T02:50:03.2751782Z;True|2024-10-16T14:11:22.3390471+08:00;True|2024-10-05T11:17:56.3063387+08:00;True|2024-10-03T16:49:41.7096957+08:00;True|2024-10-03T16:08:14.0313635+08:00;True|2024-10-01T14:15:51.9512304+08:00;True|2024-09-23T17:59:19.3298274+08:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

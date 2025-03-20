@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("onsemi shipping summary report")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+536d475027377282915942b929e85fd58b0f0cbc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f90b0c5d3245f9e3e97b00bf677844db047fdfc1")]
 [assembly: System.Reflection.AssemblyProductAttribute("onsemi shipping summary report")]
 [assembly: System.Reflection.AssemblyTitleAttribute("onsemi shipping summary report")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,43 @@
+﻿@model IEnumerable<onsemi_shipping_summary_report.Models.GemLotAssy>
+
+<div class="card mt-4">
+    <div class="card-header">
+        <strong>Search Results</strong>
+    </div>
+    <div class="card-body">
+        @if (!Model.Any())
+        {
+            <div>No results found for the given wafer scribe.</div>
+        }
+        else
+        {
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Lotnumber</th>
+                        <th>Batchnumbering</th>
+                        <th>Workordernumbering</th>
+                        <th>workorder</th>
+                        <th>ATEC_WO</th>
+                        <th>SO_number</th>
+                        <th>SoLine</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.Lotnumber</td>
+                            <td>@item.Batchnumbering</td>
+                            <td>@item.Workordernumbering</td>
+                            <td>@item.workorder</td>
+                            <td>@item.ATEC_WO</td>
+                            <td>@item.SO_number</td>
+                            <td>@item.SoLine</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+    </div>
+</div>
